@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    database: MYSQL
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+  datasource:
+    url: jdbc:mysql://localhost/parqueadero_usco?createDatabaseIfNotExist=true&serverTimezone=UTC
+    username : root
+    password: Hiko2589
+server:
+  port: 8282
